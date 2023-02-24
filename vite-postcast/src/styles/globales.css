@@ -1,0 +1,60 @@
+:root{
+    --fuenteTitulos: 'Roboto', sans-serif;
+    --fuenteGeneral: 'IBM Plex Mono', monospace ;
+    --verde: #00F3BB;
+    --blanco: #ffffff;
+    --oscuro: #000000;
+    --gris: #060A24;
+    --azul : #0000EC;
+    --backgroundAzul: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    --verdeHover: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuenteGeneral);
+    font-size: 2rem;
+    min-height: 100vh;
+}
+
+body.fijo{
+    overflow: hidden;
+}
+
+p {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.contenedor {
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+h1, h2, h3 {
+    margin: 1rem 0;
+    font-family: var(--fuentePrincipal);
+    font-weight: 600;
+}
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
