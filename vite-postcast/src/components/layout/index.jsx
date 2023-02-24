@@ -8,9 +8,7 @@ import Header from '../ui/header';
 import styled from 'styled-components';
 
 const ContainerStyles = styled.main`
-    max-width: 120rem;
-    width: 95%;
-    margin: 2rem auto;
+    margin: 2rem 0;
     min-height: 100vh;
 `;
 

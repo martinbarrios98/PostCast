@@ -1,8 +1,17 @@
 import React from 'react'
+import Bienvenida from './Bienvenida';
+import DondeVenimos from './DondeVenimos';
+import Episodios from './Episodios';
+import Invitados from './Invitados';
 
 const Inicio = () => {
     return (  
-        <h1>Hola desde inicio</h1>
+        <>
+            <Bienvenida />
+            <Episodios />
+            <DondeVenimos />
+            <Invitados />
+        </>
     );
 }
  
