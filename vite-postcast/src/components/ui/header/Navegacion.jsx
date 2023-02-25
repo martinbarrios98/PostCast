@@ -66,6 +66,16 @@ const Navegacion = ({ mostrar }) => {
         }
     ]);
 
+    const handleScroll = (e, url) => {
+
+        e.preventDefault();
+
+        document.querySelector(url).scrollIntoView({
+            behavior: 'smooth'
+        });
+
+    }
+
     return (  
         <NavegacionStyles
             mostrar={mostrar}
@@ -76,6 +86,7 @@ const Navegacion = ({ mostrar }) => {
                         href={rt.url}
                         title={rt.titulo}
                         key={rt.url}
+                        onClick={ (e) => handleScroll(e, rt.url) }
                     >{rt.nombre}</a>
                 ))
             }

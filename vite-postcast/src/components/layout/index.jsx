@@ -6,6 +6,7 @@ import Footer from '../ui/footer';
 import Header from '../ui/header';
 
 import styled from 'styled-components';
+import BotonInicio from '../ui/header/BotonInicio';
 
 const ContainerStyles = styled.main`
     margin: 2rem 0;
